@@ -15,7 +15,6 @@ body {
    font-weight: 200;
 }
 
-
 .open-modal, .close-modal {
    position: absolute;
    top: 50%;
@@ -100,4 +99,22 @@ input[type="checkbox"]:checked~.modal {
    pointer-events: auto;
 
    opacity: 1;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 900px) {
+   .modal {
+      width: 250px;
+      height: 250px;
+   }
+
+   p {
+      font-size: 1.6rem;
+      margin-top: 80px;
+   }
+
+   body {
+      font-size: 0.8rem;
+   }
 }
