@@ -12,19 +12,24 @@
 </head>
 
 <body>
-   <input type="checked" id="click" style="display:none">
-   <label class="button" for="click">
-      <a class="open-modal">Click for modal window</a>
-   </label>
+   <input type="checkbox" id="click" style="display:none" />
+
+
+   <div class="label-wrapper">
+      <label for="click">
+         <a class="open-modal">Click for open modal</a>
+      </label>
+   </div>
+
+
+   <div class="overlay"></div>
+
    <div class="modal">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt rem expedita asperiores cumque, deserunt, harum quaerat dolorum voluptas veniam vitae ex earum aspernatur totam at hic, impedit animi atque suscipit!</p>
-   </div>
-   <label class="button" for="click">
-      <a class="close-modal">Close</a>
-   </label>
 
-   <div class="overlay">
-
+      <label class="close-modal" for="click">
+         <a >Close</a>
+      </label>
    </div>
 </body>
 
